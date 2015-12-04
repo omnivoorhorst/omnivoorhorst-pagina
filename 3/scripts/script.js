@@ -1,4 +1,4 @@
-var schreeuw = prompt("Voer je tekst in");
+var schreeuw = prompt("Voer een woord in");
 schreeuw = schreeuw.toUpperCase();
 
 document.write('<p>' + schreeuw + '!!!!!!!!!!!!!<p>');

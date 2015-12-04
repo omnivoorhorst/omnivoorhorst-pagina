@@ -1,0 +1,18 @@
+#Roboto {
+	font-family: 'Roboto', sans-serif;
+}
+
+#Slabo {
+	font-family: 'Slabo 27px', serif;
+}
+
+p {
+	font-size: 2em;
+}
+
+h1 {
+	font-family: Arial;
+	color: white;
+	background-color: black;
+	padding: 30px;
+}
