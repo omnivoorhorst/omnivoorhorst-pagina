@@ -1,0 +1,37 @@
+body {
+	background-color: black;
+}
+
+#vast {
+	background-color: purple;
+	height: 499px;
+	max-width: 750px; 
+}
+
+#content {
+	display:none;
+	background-color: red;
+	height: 499px;
+	max-width: 750px;
+	margin-top: -503px;
+}
+
+
+#knop {
+	margin-top: 550px;
+	margin-left: 100px;
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+	text-align: center;
+	color: white;
+	font-size: 2em;
+	position: fixed;
+	background-color: red;
+	padding: 30px;
+	border-color: white;
+	border-style: solid;
+	border-width: 10px;
+	border-radius: 50%;
+}
+
