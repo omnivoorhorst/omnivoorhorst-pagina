@@ -18,11 +18,11 @@ body {
 
 
 #knop {
-	margin-top: 550px;
+	margin-top: 450px;
 	margin-left: 100px;
-	height: 100px;
-	width: 100px;
-	line-height: 100px;
+	height: 65px;
+	width: 65px;
+	line-height: 65px;
 	text-align: center;
 	color: white;
 	font-size: 2em;
