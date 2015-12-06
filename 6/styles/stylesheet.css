@@ -1,22 +1,27 @@
 body {
 	background-color: #12FF99;
-	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	font-family: 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
 }
 
 h1 {
+	font-size: 2.5em;
 	color: #009455;
 }
 
+h2 {
+	font-size: 2em;
+}
+
 p {
-	
+	font-size: 1em;
 	
 }
 
 #scorebord {
 	text-align: center;
-	font-size: 40px;
+	font-size: 3em;
 	color: #380093;
-
+	font-weight: 900;
 }
 
 #cursor {
@@ -30,3 +35,7 @@ p {
     border:3px solid #afffdd;
     padding: 10px;
 }
+
+#s1, #s2, #s3, #s4, #s5, #s6, #s7, #s8, #s9, #s10 {
+	 white-space: nowrap;
+} 
