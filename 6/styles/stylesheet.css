@@ -1,0 +1,32 @@
+body {
+	background-color: #12FF99;
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+}
+
+h1 {
+	color: #009455;
+}
+
+p {
+	
+	
+}
+
+#scorebord {
+	text-align: center;
+	font-size: 40px;
+	color: #380093;
+
+}
+
+#cursor {
+	cursor: crosshair;
+	word-spacing: 8px;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border:3px solid #afffdd;
+    padding: 10px;
+}
