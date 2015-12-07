@@ -1,0 +1,93 @@
+.element {
+  height: 40px;
+  width: 40px;
+  animation: 
+    nudge 40s linear infinite normal;
+}
+
+@keyframes nudge {
+  0% {
+    transform: translate(50em, 0em);
+  }
+  
+  100% {
+    transform: translate(1em, -50em);
+  }
+
+}
+
+.element2 {
+  height: 40px;
+  width: 40px;
+  animation: 
+    nudge2 40s linear infinite normal;
+}
+
+@keyframes nudge2 {
+  0% {
+    transform: translate(80em, 30em);
+  }
+  
+  100% {
+    transform: translate(0em, 0em);
+  }
+
+}
+
+
+.element3 {
+  height: 40px;
+  width: 40px;
+  animation: 
+    nudge3 50s linear infinite normal
+}
+
+@keyframes nudge3 {
+  0% {
+    transform: translate(0em, 50em);
+  }
+  
+  100% {
+    transform: translate(30em, -10em);
+  }
+
+}
+
+
+.element4 {
+  height: 40px;
+  width: 40px;
+  animation: 
+    nudge4 40s linear infinite normal
+}
+
+@keyframes nudge4 {
+  0% {
+    transform: translate(50em, -70em);
+  }
+  
+  100% {
+    transform: translate(40em, 50em);
+  }
+
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto; 
+  line-height:150%;
+}
+
+body {
+  background-color: #FAF5C0;
+  font-family: Georgia;
+}
+
+
+h1 {
+  line-height:150%;
+}
+
+#right {
+  text-align: right;
+}
