@@ -2,7 +2,7 @@
   height: 40px;
   width: 40px;
   animation: 
-    nudge 40s linear infinite normal;
+    nudge 80s linear infinite normal;
 }
 
 @keyframes nudge {
@@ -20,7 +20,7 @@
   height: 40px;
   width: 40px;
   animation: 
-    nudge2 40s linear infinite normal;
+    nudge2 80s linear infinite normal;
 }
 
 @keyframes nudge2 {
@@ -39,7 +39,7 @@
   height: 40px;
   width: 40px;
   animation: 
-    nudge3 50s linear infinite normal
+    nudge3 80s linear infinite normal
 }
 
 @keyframes nudge3 {
@@ -58,7 +58,7 @@
   height: 40px;
   width: 40px;
   animation: 
-    nudge4 40s linear infinite normal
+    nudge4 75s linear infinite normal
 }
 
 @keyframes nudge4 {
