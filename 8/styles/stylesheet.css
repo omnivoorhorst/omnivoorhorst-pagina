@@ -1,0 +1,80 @@
+.container {
+  background-image: url("pinboard.jpg");
+}
+
+.postit {
+  visibility: hidden;
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	border-radius: 2px;
+	padding: 10px;
+	font-size: 20px;
+	box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+	margin-top: 30px;
+  display: block;
+  margin: 40px 0 0 0;
+  cursor:move;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+}
+
+.pin {
+  visibility: hidden;
+  background-color: #aaa;
+  display: block;
+  height: 32px;
+  width: 2px;
+  position: absolute;
+  left: 50%;
+  top: -16px;
+  z-index: 1;
+}
+
+.pin:before {
+  background-color: hsla(0,0%,0%,0.1);
+  box-shadow: 0 0 .25em hsla(0,0%,0%,.1);
+  content: '';
+  height: 24px;
+  width: 2px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  transform: rotate(57.5deg);
+  transform-origin: 50% 100%;
+}
+
+.pin:after {
+  background-color: #A31;
+  background-image: radial-gradient(25% 25%, circle, hsla(0,0%,100%,.3), hsla(0,0%,0%,.3));
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.1),
+              inset 3px 3px 3px hsla(0,0%,100%,.2),
+              inset -3px -3px 3px hsla(0,0%,0%,.2),
+              23px 20px 3px hsla(0,0%,0%,.15);
+  content: '';
+  height: 12px;
+  left: -5px;
+  position: absolute;
+  top: -10px;
+  width: 12px;
+}
+
+.tekst {
+  visibility: hidden;
+}
+
+.plek {
+  visibility: hidden;
+}
+
+.speld {
+  visibility: hidden;
+}
+
+#draggable {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
