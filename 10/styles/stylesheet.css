@@ -1,0 +1,98 @@
+body {
+	background-color: white;
+	font-family: 'Smythe', cursive;
+}
+
+
+
+.video {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(220, 209, 164, 0.6);
+}
+
+.video1 {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(220, 185, 165, 0.6);
+}
+
+.video2 {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(220, 185, 165, 0.6);
+}
+
+.video3 {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(154, 189, 149, 0.6);
+}
+
+.video3 {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(148, 179, 171, 0.6);
+}
+
+.video4 {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(250, 250, 181, 0.4);
+}
+
+.video5 {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(102, 122, 97, 0.6);
+}
+
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+.introtext1 {
+	color: white;
+	padding-top: 0px;
+	font-size: 27vw;
+}
+
+.introtextsub {
+	color: white;
+	text-align: center;
+	font-size: 5vw;
+}
+
+.introtext2 {
+	color: white;
+	padding-top: 300px;
+	font-size: 7vw;
+}
+
+.introtext4 {
+	color: white;
+	padding-top: 250px;
+	font-size: 7vw;
+}
+
+.introtext3 {
+	color: white;
+	padding-top: 0px;
+	font-size: 15vw;
+}
+
+#textblock {
+	background-color: rgb(220, 185, 165);
+	text-align: center;
+	color: black;
+
+}
+
+#gray {
+	background-color: #e2e2e2;
+
+}
+
+
