@@ -18,10 +18,17 @@ input {
 	background-color: #C4E9F5;
 	width: 800px;
 	height: 13vmin;
-	font-size: 12vmin;
+	font-size: 11vmin;
 	color: #6F7475;
 }
 
+.knop {
+  padding:5px;
+  background-color: #dcdcdc;
+  border: 1px solid #666;
+  color:#000;
+  text-decoration:none;
+}
 
 
 .invoergeheel {
