@@ -22,6 +22,8 @@ input {
 	color: #6F7475;
 }
 
+
+
 .invoergeheel {
 	visibility: none;
 }
@@ -29,6 +31,7 @@ input {
 .invoeraanwijzing {
 	visibility: none;
 	text-align: center;
+	font-size: 8vmin;
 }
 
 .antwoord {
@@ -46,6 +49,7 @@ input {
 
 #toevoeging {
 	color: grey;
+	font-size: 60px;
 }
 
 body {
