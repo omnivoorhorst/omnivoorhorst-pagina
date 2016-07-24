@@ -1,0 +1,73 @@
+body {
+	background-image: url("../img/brug.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: black;
+	font-family: 'Playfair Display', serif;
+}
+
+h3 {
+	font-size: 90px;
+}
+
+.zeshoek0 {
+	color: yellow;
+	font-size: 151px;
+	opacity: 0.8;
+	padding-left: 10%;
+	position: fixed;
+	margin-top: -10%;
+	margin-left: 
+}
+
+.zeshoek00 {
+	color: yellow;
+	font-size: 281px;
+	opacity: 0.8;
+	padding-left: 45%;
+	position: fixed;
+	margin-top: -10%;
+}
+
+.zeshoek1 {
+	color: yellow;
+	font-size: 235px;
+	opacity: 0.8;
+	position: fixed;
+	margin-left: -5%;
+	margin-top: 30%;
+}
+
+.zeshoek2 {
+	color: yellow;
+	font-size: 435px;
+	opacity: 0.8;
+	padding-left: 80%;
+	position: fixed;
+}
+
+.zeshoek3 {
+	color: yellow;
+	font-size: 335px;
+	opacity: 0.8;
+	position: fixed;
+	margin-top: 5%;
+	margin-left: 120px;
+}
+
+.zeshoek4 {
+	color: blue;
+	font-size: 335px;
+	opacity: 0.8;
+	position: fixed;
+	margin-top: -30px;
+}
+
+.titel {
+
+	left: 25%;
+	top: 35%;
+	position: fixed;
+	color: blue;
+}
+
