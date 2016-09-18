@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+<style>
+
+body {
+	font-family: Verdana;
+}
+
+div    {
+	height: 60px;
+}
+
+input {
+	padding: 10px;
+  	border: solid 1px #fff;
+  	box-shadow: inset 1px 1px 2px 0 #707070;
+  	transition: box-shadow 0.3s;
+}
+
+</style>
+
+<title>Zebrapad Regenboog</title>
+
+<body>
+
+<h3>Zebrapad wordt regenboog!  --- Typ een andere kleur (in het Engels)</h3>
+
+<div ng-app="" ng-init="myCol1='white'; myCol2='black'; myCol3='white'; myCol4='black'; myCol5='white'; myCol6='black'">
+
+	<input ng-model="myCol1" value="{{myCol1}}">
+	<input ng-model="myCol2" value="{{myCol2}}">
+	<input ng-model="myCol3" value="{{myCol3}}">
+	<input ng-model="myCol4" value="{{myCol4}}">
+	<input ng-model="myCol5" value="{{myCol5}}">
+	<input ng-model="myCol6" value="{{myCol6}}">
+
+<br>
+
+	<div style="background-color:{{myCol1}}" ng-model="myCol1" value="{{myCol1}}">
+	</div>
+	<div style="background-color:{{myCol2}}" ng-model="myCol2" value="{{myCol2}}">
+	</div>
+	<div style="background-color:{{myCol3}}" ng-model="myCol3" value="{{myCol3}}">
+	</div>
+	<div style="background-color:{{myCol4}}" ng-model="myCol4" value="{{myCol4}}">
+	</div>
+	<div style="background-color:{{myCol5}}" ng-model="myCol5" value="{{myCol5}}">
+	</div>
+	<div style="background-color:{{myCol6}}" ng-model="myCol6" value="{{myCol6}}">
+	</div>
+	<div style="background-color:{{myCol1}}" ng-model="myCol1" value="{{myCol1}}">
+	</div>
+	<div style="background-color:{{myCol2}}" ng-model="myCol2" value="{{myCol2}}">
+	</div>
+	<div style="background-color:{{myCol3}}" ng-model="myCol3" value="{{myCol3}}">
+	</div>
+	<div style="background-color:{{myCol4}}" ng-model="myCol4" value="{{myCol4}}">
+	</div>
+	<div style="background-color:{{myCol5}}" ng-model="myCol5" value="{{myCol5}}">
+	</div>
+	<div style="background-color:{{myCol6}}" ng-model="myCol6" value="{{myCol6}}">
+	</div>
+	<div style="background-color:{{myCol1}}" ng-model="myCol1" value="{{myCol1}}">
+	</div>
+	<div style="background-color:{{myCol2}}" ng-model="myCol2" value="{{myCol2}}">
+	</div>
+	<div style="background-color:{{myCol3}}" ng-model="myCol3" value="{{myCol3}}">
+	</div>
+	<div style="background-color:{{myCol4}}" ng-model="myCol4" value="{{myCol4}}">
+	</div>
+	<div style="background-color:{{myCol5}}" ng-model="myCol5" value="{{myCol5}}">
+	</div>
+	<div style="background-color:{{myCol6}}" ng-model="myCol6" value="{{myCol6}}">
+	</div>
+	<div style="background-color:{{myCol1}}" ng-model="myCol1" value="{{myCol1}}">
+	</div>
+	<div style="background-color:{{myCol2}}" ng-model="myCol2" value="{{myCol2}}">
+	</div>
+	<div style="background-color:{{myCol3}}" ng-model="myCol3" value="{{myCol3}}">
+	</div>
+	<div style="background-color:{{myCol4}}" ng-model="myCol4" value="{{myCol4}}">
+	</div>
+	<div style="background-color:{{myCol5}}" ng-model="myCol5" value="{{myCol5}}">
+	</div>
+	<div style="background-color:{{myCol6}}" ng-model="myCol6" value="{{myCol6}}">
+	</div>
+
+</div>
+
+</body>
+</html>
