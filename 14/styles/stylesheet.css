@@ -1,0 +1,25 @@
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: #f2f0dc;
+ }
+
+ h1 {
+ 	    font-size: 70px;
+ }
+
+.helloSubject {
+	color: #2635d6;
+	font-size: 60px;
+	margin-top: 20px;
+}
+
+.button {
+	background-color:#ced3db;
+}
+.button:hover {
+	background-color:#c2c6ce;
+}
+.button:active {
+	position:relative;
+	top:4px;
+}

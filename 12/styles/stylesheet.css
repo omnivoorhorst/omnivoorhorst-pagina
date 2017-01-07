@@ -1,0 +1,96 @@
+body {
+	background-image: url("../img/brug.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: black;
+	font-family: 'Playfair Display', serif;
+}
+
+h3 {
+	font-size: 90px;
+}
+
+.zeshoek0 {
+	color: yellow;
+	font-size: 151px;
+	opacity: 0.8;
+	padding-left: 10%;
+	position: fixed;
+	margin-top: -10%;
+	margin-left: 
+}
+
+.zeshoek00 {
+	color: yellow;
+	font-size: 321px;
+	opacity: 0.8;
+	padding-left: 55%;
+	position: fixed;
+	margin-top: -13%;
+}
+
+.zeshoek1 {
+	color: yellow;
+	font-size: 335px;
+	opacity: 0.8;
+	position: fixed;
+	margin-left: -5%;
+	margin-top: 30%;
+}
+
+.zeshoek2 {
+	color: yellow;
+	font-size: 435px;
+	opacity: 0.8;
+	padding-left: 80%;
+	position: fixed;
+}
+
+
+.titel {
+	left: 25%;
+	top: 35%;
+	position: fixed;
+	color: blue;
+}
+
+.hex:before {
+    content: " ";
+    width: 0; height: 0;
+    border-bottom: 60px solid yellow;
+    border-left: 104px solid transparent;
+    border-right: 104px solid transparent;
+    position: absolute;
+    top: -60px;
+}
+
+.hex {
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-top: 25%;
+    width: 208px;
+    height: 120px;
+    background-color: yellow;
+    opacity: 0.8;
+    position: fixed;
+}
+
+.hex:after {
+    content: "";
+    width: 0;
+    position: absolute;
+    bottom: -60px;
+    border-top: 60px solid yellow;
+    border-left: 104px solid transparent;
+    border-right: 104px solid transparent;
+}
+
+
+#spin {
+    -webkit-animation:spin 11s linear infinite;
+    -moz-animation:spin 11s linear infinite;
+    animation:spin 11s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
