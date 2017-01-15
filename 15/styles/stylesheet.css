@@ -1,11 +1,20 @@
 body {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Cuprum', sans-serif;
 	text-align: center;
+}
 
+h1 {
+  color: DarkBlue;
+  font-weight: 900;
+  font-size: 37px;
+}
+
+h5 {
+  font-size: 20px;
 }
 
 .container {
-  margin-top: 100px;
+  margin-top: 5vh;
   width: 90%;
 }
 
@@ -13,11 +22,8 @@ img {
   width: auto;
   height: auto;
   max-height:90vh;
-  margin: 20px auto;
+  margin: 20px 20px;
 }
 
 
-h1 {
-	color: lime;
-	font-weight: 900;
-}
+
