@@ -26,8 +26,6 @@ img {
   margin: 20px 20px;
   /* box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15); */
   border-radius: 3px;
-  opacity: 0;
-  transition: opacity .3s ease-in;
 }
 
 
