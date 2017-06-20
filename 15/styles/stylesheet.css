@@ -23,7 +23,8 @@ img {
   width: auto;
   height: auto;
   max-height:90vh;
-  margin: 20px 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   /* box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15); */
   border-radius: 3px;
 }
